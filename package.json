@@ -1,0 +1,17 @@
+{
+  "name": "careconnect",
+  "version": "1.0.0",
+  "description": "CareConnect is health Care application to connect patient",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CareConnect"
+  ],
+  "author": "Shadab Alam",
+  "license": "ISC",
+  "dependencies": {
+    "wscat": "^6.1.0"
+  }
+}
