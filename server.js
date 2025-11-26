@@ -1,8 +1,13 @@
 var webSocketServ = require('ws').Server;
 
+const PORT = process.env.PORT || 9090;
+
 var wss = new webSocketServ({
-    port:0000
+    port: PORT
 });
+
+console.log("WebSocket Server running on PORT:", PORT);
+
 
 var users = { };
 var otherUser;
